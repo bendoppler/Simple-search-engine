@@ -1,0 +1,10 @@
+------------------------------------------------
+the AND big AND BANG
+Not found
+------------------------------------------------
+the AND manchester -united -city OR BANG
+Group01_02.txt
+the  is founded in the row: 1 4 6 6 8 9 11 11 12 14 16 16 18 
+manchester  is founded in the row: 19 
+------------------------------------------------
+
