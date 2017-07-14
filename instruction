@@ -1,0 +1,29 @@
+As we said, we have five types of query.Now, to make it clear , i will present you 5 types through example:
+
+1.$
+You must type query in the right syntax .
+ex:$500 no spaces between $ and 500
+
+2.#
+Like $
+ex: #glory
+So if you want to combine $ and # or 2$ or 2#. We will use AND/OR query
+Example
+$500 AND #glory
+$500 OR #glory
+#glory AND #manutd
+$500 OR $200
+You must include exactly one space between word and AND/OR. you can replace AND by OR and vice versa.
+
+3.not(-)
+Ex: manchester -united. The - must stick with the word that u don't want to appear.
+4.AND
+Ex: the AND big AND bang. The news must include three words the, big and bang.
+5.OR
+Ex: Manchester OR manred. The news must include one of two words: Manchester or manred or both.
+
+The interesting thing in here that we can combine all 5 types of query in one search key.For example:
+The AND big OR bang AND #manutd -united $500
+
+P/s: if you want to use it easily, please insert your query into query.txt and your answer will ouput to answer.txt
+We will output the filename and the row that contain the word key.
